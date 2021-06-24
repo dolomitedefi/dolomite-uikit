@@ -13,6 +13,12 @@ export type ConnectorId =
   | "walletlink"
   | "bsc";
 
+export enum ConnectorNames {
+  Injected = "injected",
+  WalletConnect = "walletconnect",
+  BSC = "bsc",
+}
+
 export type Login = (connectorId: ConnectorId) => void;
 
 export interface Config {
