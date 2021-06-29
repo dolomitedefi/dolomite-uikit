@@ -3,7 +3,7 @@ import styled from "styled-components";
 import AuditButton from "./AuditButton";
 import PanelBody from "./PanelBody";
 import PanelFooter from "./PanelFooter";
-import { SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
+import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
 import { PanelProps, PushedProps } from "./types";
 
 interface Props extends PanelProps, PushedProps {
@@ -15,7 +15,8 @@ interface Props extends PanelProps, PushedProps {
 
 const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   position: fixed;
-  padding-top: ${({ showMenu }) => (showMenu ? "80px" : 0)};
+  margin-top: ${({ showMenu }) => (showMenu ? MENU_HEIGHT : 0)};
+  pading-top: 10px;
   top: 0;
   left: 0;
   display: flex;
@@ -24,7 +25,7 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-shrink: 0;
   background-color: ${({ theme }) => theme.nav.background};
   width: ${({ isPushed }) => (isPushed ? `${SIDEBAR_WIDTH_FULL}px` : 0)};
-  height: 100vh;
+  height: calc(100vh - ${MENU_HEIGHT});
   transition: padding-top 0.2s, width 0.2s;
   border-right: ${({ isPushed }) => (isPushed ? "2px solid rgba(133, 133, 133, 0.1)" : 0)};
   z-index: 11;
