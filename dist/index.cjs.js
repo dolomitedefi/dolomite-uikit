@@ -2674,7 +2674,7 @@ var StyledNav = styled__default['default'].nav(templateObject_2$f || (templateOb
     return theme.nav.background;
 });
 var BodyWrapper = styled__default['default'].div(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
-var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  background-image: url(/images/main-bg.jpg);\n  min-height: 100vh;\n  background-repeat: no-repeat;\n  background-size: cover;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"], ["\n  flex-grow: 1;\n  background-image: url(/images/main-bg.jpg);\n  min-height: 100vh;\n  background-repeat: no-repeat;\n  background-size: cover;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"])), function (_a) {
+var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? MENU_HEIGHT + "px" : 0);
 }, function (_a) {
@@ -2842,7 +2842,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#021015", input: "#021015", tertiary: "#EFF4F5", text: "#452A7A", textDisabled: "#BDC2C4", textSubtle: "#012e3ca6", borderColor: "#E9EAEB", card: "#012e3ca6", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#021015", input: "#021015", primaryDark: "##0d0e0e", tertiary: "#021217", text: "#ecd098", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#012e3ca6", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#3e3718", background: "#10242b", backgroundDisabled: "#333a3e", contrast: "#FFFFFF", invertedContrast: "#3a393c", input: "#3a393c", primaryDark: "##0d0e0e", tertiary: "#3a261e", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#ddd1c1", borderColor: "#847a35", card: "#5f595dbf", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
