@@ -2245,7 +2245,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "'https://twitter.com/DolomiteDefi",
+        href: "https://twitter.com/DolomiteDefi",
     },
 ];
 var MENU_HEIGHT = 74;
