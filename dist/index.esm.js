@@ -2096,8 +2096,8 @@ var templateObject_1$y;
 
 var RugDocAudit = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 384 164" }, props),
-        React.createElement("image", { width: "384", height: "164", href: isDark ? '/images/egg/RugDocAuditDark.png' : '/images/egg/RugDocAuditWhite.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 370 121" }, props),
+        React.createElement("image", { width: "370", height: "121", href: isDark ? '/images/egg/RugDocAuditDark.png' : '/images/egg/RugDocAuditWhite.png' })));
 };
 
 var StyledAudit = styled.div(templateObject_1$z || (templateObject_1$z = __makeTemplateObject(["\n  margin-bottom: 5px;\n  text-align: center;\n\n  svg {\n    width: 100%;\n  }\n"], ["\n  margin-bottom: 5px;\n  text-align: center;\n\n  svg {\n    width: 100%;\n  }\n"])));
